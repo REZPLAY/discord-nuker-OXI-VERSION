@@ -1,0 +1,33 @@
+{
+
+	"Channel": ["Channel Name"], 
+
+
+	"Role-Names": ["OXI", "NUKER", "BEST"],
+
+
+	"Spam": true,
+
+
+	"ChannelName": ["Oxi"],
+
+
+	"RoleName": ["Oxi"],
+
+
+	"Reason": ["Oxi"],
+
+
+	"Spam-Messages": ["@everyone Zex Nuker"],
+
+
+  "Spam": true,
+
+	"Webhook-Names": ["Oxi"],
+
+
+	"Spam-Messages": ["@everyone"],
+
+
+	"Spam-Amount": 100
+}

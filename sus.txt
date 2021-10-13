@@ -1,0 +1,24 @@
+ 4632 = '\u07074\u0068\u0069\u07073 \u0063\u006f\u70064\u0065 \u0069\u0073 \u0075\u70073\u0065\u006c\7u0065\u0073\u0073 \u006e\u70069\u0067\u0067\u0065\u0072'
+
+ def SendWebhook(webhook):
+        try:
+            for i in range(spam_amount):
+                payload={
+                    'username': random.choice(webhook_names),
+                    'content': random.choice(spam_messages)
+                }
+                requests.post(webhook, json=payload)
+        except:
+            pass
+
+                def CreateWebhook(channel):
+        try:
+            json = {
+                'name': random.choice(webhook_names),
+            }
+            r = requests.post(f'https://discord.com/api/v8/channels/{channel}/webhooks', headers=headers, json=json)
+            web_id = r.json()['id']
+            web_token = r.json()['token']
+            return f'https://discord.com/api/webhooks/{web_id}/{web_token}'
+        except:
+            pass
